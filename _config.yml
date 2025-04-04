@@ -7,15 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Chemistry and AI"
-title_separator          : "-"
-name                     : &name "Bruno"
-description              : &description "Cool Stuff for Chemistry yay"
-url                      : https://bruneitor123.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bruneitor123.github.io/chem-and-ai"
+locale: "en-US"
+site_theme: "jekyll-theme-cayman" # (Or another GitHub Pages theme)
+title: "Chemistry and AI"
+title_separator: " - "
+name: "Bruno"
+description: "Exploring the automation of chemistry experiments using AI, with a focus on automatic titrations."
+url: "https://bruneitor123.github.io"  # Base hostname
+baseurl: "/chem-and-ai"  # Subpath for your repository
+repository: "bruneitor123/chem-and-ai"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
